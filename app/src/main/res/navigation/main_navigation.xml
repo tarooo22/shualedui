@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.vereshchagin.nikolay.pepegafood.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_catalog"
+        android:name="com.vereshchagin.nikolay.pepegafood.ui.catalog.review.CatalogFragment"
+        android:label="@string/nav_catalog"
+        tools:layout="@layout/fragment_catalog" />
+
+    <fragment
+        android:id="@+id/nav_basket"
+        android:name="com.vereshchagin.nikolay.pepegafood.ui.basket.BasketFragment"
+        android:label="@string/nav_basket"
+        tools:layout="@layout/fragment_basket" />
+
+    <fragment
+        android:id="@+id/nav_delivery"
+        android:name="com.vereshchagin.nikolay.pepegafood.ui.delivery.DeliveryFragment"
+        android:label="@string/nav_delivery"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.vereshchagin.nikolay.pepegafood.ui.profile.viewer.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_address"
+        android:name="com.vereshchagin.nikolay.pepegafood.ui.home.address.AddressFragment"
+        android:label="@string/nav_address"
+        tools:layout="@layout/fragment_address" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.vereshchagin.nikolay.pepegafood.ui.catalog.search.SearchFragment"
+        android:label="@string/nav_search"
+        tools:layout="@layout/fragment_search" />
+
+    <action
+        android:id="@+id/to_address_fragment"
+        app:destination="@id/nav_address"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    <action
+        android:id="@+id/to_search_fragment"
+        app:destination="@+id/nav_search"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+</navigation>

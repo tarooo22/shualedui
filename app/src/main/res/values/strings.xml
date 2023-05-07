@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name" translatable="false">PepegaFood</string>
+
+    <string name="nav_home">მთავარი</string>
+    <string name="nav_catalog">კატალოგი</string>
+    <string name="nav_basket">კალათა</string>
+    <string name="nav_delivery">ჩემი შეკვეთები</string>
+    <string name="nav_profile">პროფილი</string>
+    <string name="nav_address">აირჩიე ლოკაცია</string>
+    <string name="nav_search">ძებნა</string>
+
+    <string name="home_your_address">თქვენი ლოკაცია</string>
+
+    <string name="address_loading">მიმდინარეობს ლოკაციის დაზუსტება...</string>
+    <string name="address_error">ლოკაცია ვერ მოიძებნა</string>
+    <string name="address_not_set">ლოკაცია ვერ მოიძებნა</string>
+    <string name="map_marker_position">ახლანდელი ლოკაცია</string>
+    <string name="address_selected_address">აირჩიე ლოკაცია</string>
+
+    <string name="search_hint">შეიყვანეთ პროდუქტის სახელი</string>
+    <string name="home_search_button">ძიება</string>
+    <string name="home_collect_food_basket">შეაგროვე კალათაში</string>
+    <string name="home_look_basket">ნახე კალათა</string>
+    <string name="home_automatic_collection">ავტომატური შეგროვება</string>
+    <string name="home_favorite_baskets">საყვარელი კალათა</string>
+    <string name="home_catalog">კატალოგი</string>
+
+    <string name="login_title">შესვლა PepegaFood</string>
+    <string name="login_phone">ტელეფონის ნომერი</string>
+    <string name="login_sign_in">შესვლა</string>
+    <string name="login_registration">რეგისტრაცია</string>
+    <string name="login_logo">ლოგოტიპი PepegaFood</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">პაროლი</string>
+    <string name="login_login">შესვლა</string>
+    <string name="login_forgot_password">დაგავიწყდა პაროლი?</string>
+    <string name="login_first_name">სახელი</string>
+    <string name="login_confirm_password">გაიმეორე პაროლი</string>
+    <string name="login_sign_out">დარეგისტრირდი</string>
+    <string name="login_first_name_placeholder">ნიკა</string>
+    <string name="login_password_placeholder" translatable="false">********</string>
+    <string name="login_email_invalid">არასწორი ემეილის სახელწოდება</string>
+    <string name="login_password_invalid">პაროლი პატარაა 6 სიმბოლოზე</string>
+    <string name="login_first_name_invalid">მომხმარებლის სახელი ცარიელია</string>
+    <string name="login_phone_invalid">არასწორი ტელეფონია</string>
+    <string name="login_confirm_password_invalid">პაროლი არ ემთხვევა</string>
+    <string name="login_last_name">გვარი</string>
+    <string name="login_last_name_placeholder">თარაშვილი</string>
+    <string name="login_last_name_invalid">მომხმარებლის გვარი თავისუფალია</string>
+    <string name="login_success_registration">თქვენ დარეგისტრირდით წარმატებით</string>
+    <string name="login_success_registration_msg">რეგისტრაცია ჩატარდა წარმატებით დაბრუნდით მთავარ გვერძე!</string>
+    <string name="profile_edit_helper">დააჭირე აქ რომ მოხდეს პროფილის რედაქტირება</string>
+
+    <string name="profile_logout">გამოსვლა</string>
+    <string name="profile_about_application">О აპლიკაცია</string>
+    <string name="profile_address">მიწოდების ლოკაცია</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_phone">ტელეფონის ნომერი</string>
+    <string name="profile_personal_information">პირადი ინფორმაცია</string>
+    <string name="profile_log_in">შესვლა</string>
+    <string name="profile_log_in_helper">დააჭირე აქ რომ შეხვიდე</string>
+    <string name="profile_action">პროფილზე მოქმედება</string>
+
+    <string name="basket_basket_image">კალათის გამოსახულბა</string>
+    <string name="bucket_is_empty">კალათა ცარიელია</string>
+    <string name="basket_try_to_find_something">მოძებნე რამე</string>
+    <string name="button_in_the_catalog">კატალოგი</string>
+    <string name="basket_place_your_order">დაასრულე შეკვეთა</string>
+    <string name="basket_product_list">პროდუქტების სია</string>
+    <string name="basket_forever_baskets">საყვარელი კალათა</string>
+    <string name="basket_open_button">გახსენით საყვარელი კალათა</string>
+    <string name="basket_subtotal">საბოოლოდ:</string>
+    <string name="basket_remove_all">წაშალეთ ყველა პროდუქტი</string>
+    <string name="basket_product_image">პროდუქტების ასახვა</string>
+
+    <string name="catalog_select">აირჩიეთ პროდუქტების კატალოგი</string>
+
+    <string name="search">ძებნა</string>
+    <string name="error">შეცდომა</string>
+    <string name="ok">კი</string>
+    <string name="retry">განმეორება</string>
+
+</resources>

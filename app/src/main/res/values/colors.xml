@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета приложения -->
+    <color name="colorPrimary">#0D2840</color>
+    <color name="colorPrimaryDark">#061727</color>
+    <color name="colorAccent">#FDD835</color>
+
+    <color name="colorLinkButton">#3578FD</color>
+
+    <color name="colorBottomNavigationItem">#8E8E8E</color>
+    <color name="colorBottomNavigationItemSelected">#FFFFFF</color>
+
+    <color name="colorBackgroundBadge">#FDD835</color>
+    <color name="colorTextBadge">#0D2840</color>
+
+    <color name="colorToolbarAddress">#FFFFFF</color>
+
+</resources>

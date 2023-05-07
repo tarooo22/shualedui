@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    style="@style/CardStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_layout_padding">
+
+    <LinearLayout
+        android:layout_width="@dimen/home_basket_width"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/home_card_content"
+        android:orientation="vertical"
+        android:background="?android:selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/food_basket_title"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="My baskets"/>
+
+        <TextView
+            android:id="@+id/food_basket_cost"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="10 ₾." />
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:text="@string/home_look_basket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
